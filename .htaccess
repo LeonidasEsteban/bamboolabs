@@ -1,0 +1,4 @@
+Options +FollowSymlinks
+RewriteEngine on
+RewriteCond %{http_host} ^www\.bamboolabs\.com[nc]
+RewriteRule ^(.*)$ http://bamboolabs.com/$1 [r=301,nc]

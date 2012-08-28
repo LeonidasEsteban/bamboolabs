@@ -1,0 +1,1 @@
+<?= 'si funciona ok'?>

@@ -1,0 +1,360 @@
+@css{
+    @font-face {
+        font-family: 'OpenSans';
+        src: url('../fonts/OpenSans-Light-webfont.eot');
+        src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+             url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+             url('../fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+        font-weight: normal;
+        font-style: normal;
+
+    }
+
+
+    @font-face {
+        font-family: 'OpenSans';
+        src: url('../fonts/OpenSans-Regular-webfont.eot');
+        src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+             url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+             url('../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+        font-weight: bold;
+        font-style: normal;
+
+    }
+}
+@import "classes.styl"
+*
+    margin 0
+a 
+    color #555353
+    text-decoration none
+p span 
+    color #42b449
+    font-weight bold
+img 
+    border none
+body
+    background #f0f0f0
+    color #555353
+    font-family 'OpenSans'
+    font-size 16px
+    overflow-x hidden
+footer
+    font-size 0
+    overflow hidden
+header
+    @extends .clearfix
+    background url("../images/bamboolabs_background.jpg")
+    position fixed
+    top 0
+    width 100%
+    z-index 10
+    #logo
+        color #8b8a8a
+        float left 
+        font-family 'Georgia'
+        font-style italic
+        h1
+            color #8b8a8a
+            font-size 24px
+            font-weight normal
+            position relative
+            top -10px
+        img 
+            position relative 
+            top 20px
+    .menu 
+        margin-top 60px
+        float right
+        nav 
+            height 
+        ul 
+            padding 0
+            position relative
+            bottom 30px
+
+        li 
+            display inline-block
+            a 
+                background #dadada
+                color black
+                text-transform uppercase
+                padding 5px 10px
+                border-radius 5px
+
+                &:hover 
+                    background #83cb60
+                    color white
+
+
+#empresa
+    @extends .clearfix
+    background url("../images/bamboo_fondo.gif")
+    font-family 'Georgia'
+    font-size 20px
+    line-height 26px
+    padding 60px 0 0 70px
+
+    .texto 
+        @extends .clearfix
+        background url("../images/gana_dinero_internet.png") no-repeat right bottom padding-box
+        p
+            max-width 500px 
+            float left
+            clear left
+            margin-bottom 45px
+        p:nth-child(2)
+            margin-bottom 115px
+        
+#nosotros
+    background url("../images/maderaBamboo.jpg")
+    text-align center
+    padding-bottom 10px
+    h3 
+        color white
+        font-size 37px
+        font-weight normal
+        text-align left 
+    .avatar
+        border 10px solid rgba(black,.3)
+        border-radius 142px
+        display inline-block
+        width 143px 
+        height 142px
+        margin-bottom 10px
+        overflow hidden
+        img 
+            border-radius 142px
+            width 143px 
+            height 142px 
+    .biografia
+        background white
+        border 1px solid #dc9d2f
+        border-radius 10px 
+        box-sizing border-box
+        color #737272
+        font-size 14px 
+        line-height 26px
+        margin 0 auto
+        max-width 340px
+        padding 20px
+        text-align justify
+        min-height 533px
+        a
+            color #54b9f3
+            font-weight bold
+        h3 
+            border-bottom 1px solid #bc761a
+            color #bc761a
+            font-size 23px 
+            font-weight normal
+            margin-bottom 10px
+            padding-bottom 15px
+            text-align center
+        p 
+            margin-bottom 25px
+
+    .team
+        width 48%
+        display inline-block
+        vertical-align top
+    .twitter
+        background #54b9f3 /*url("../images/bamboo_twitter.gif") no-repeat left 5px*/
+        border-radius 5px
+        margin 10px auto
+        max-width 340px
+        overflow hidden
+        padding 15px 5px 10px 5px
+        text-align center
+        position relative
+
+        a 
+            display inline-block
+
+
+
+#servicios
+    background url("../images/bamboolabs_background.jpg")
+    border-top 50px solid white
+
+    article
+        background white 
+        border-radius 10px
+        margin-bottom 35px
+        padding 30px 23px
+        @extends .clearfix
+    h3 
+        font-size 37px
+        color #42b449
+        font-weight normal
+        margin-bottom 20px
+    .content
+        padding 27px 0
+        box-sizing border-box
+        
+    .disenio
+        background white url("../images/disenoweb.png") no-repeat 30px 90px
+    .ilustracion
+        background white url("../images/illustration.png") no-repeat 60px 40px
+    .entrenamiento
+        background white url("../images/learning.png") no-repeat 100px 40px
+    .texto 
+        max-width 530px 
+        float right
+        font-size 16px
+        line-height 25px
+        h2 
+            font-size 26px
+            font-weight normal
+            margin-bottom 25px
+        p 
+            margin-bottom 20px
+#wrapper
+    padding-top 82px   
+.content
+    margin 0 auto
+    max-width 1000px
+.formulario:nth-child(odd)
+    box-shadow 1px 1px 15px rgba(gray)
+.formulario 
+    background linear-gradient(bottom,#dddcdc 0% ,#f6f6f6 60%,#f6f6f6 100% ) 
+    font-family 'Georgia'
+    padding 10px 0
+    label 
+        color #666666
+        display block
+        font-size 22px
+        font-style italic
+    input 
+        font-family 'Georgia'
+        font-size 18px
+        margin 10px 15px 0 0
+        outline 0
+        position relative
+        vertical-align top
+    input[type="text"],
+    input[type="email"]
+        border 1px solid #cdcdcd
+        border-radius 5px
+        color #666666
+        height 42px
+        padding 5px 15px 0 15px
+        width 290px
+        &:focus
+            border 1px solid #42b449
+    input[type="submit"]
+        background url("../images/bamboolabs_sucribirse.png") no-repeat left -50px
+        border none
+        cursor pointer
+        height 50px 
+        padding 0 
+        width 191px
+        &:hover 
+            background url("../images/bamboolabs_sucribirse.png") no-repeat left top
+        &:active
+            transform scale(.9)
+
+input::-webkit-input-placeholder
+input::-moz-input-placeholder
+  color #bebebe
+  font-family 'Georgia'
+
+@media screen and (max-width:1000px) 
+    footer img 
+        width 100%
+    header 
+        position static
+    #empresa
+        padding-left 0
+        .texto 
+            transition .3s padding
+            padding-left 4%
+            padding-right 4%
+            text-shadow 1px 1px 0 white
+            -moz-text-shadow 1px 1px 0 white
+            -ms-text-shadow 1px 1px 0 white
+            -webkit-text-shadow 1px 1px 0 white
+    #servicios
+        .content
+            padding 27px 2%
+        .content > *
+            background-position 80% 20px
+            background-size 20%
+            transition .3s
+        .texto 
+            max-width 100%
+            float none
+    #wrapper 
+        padding 0
+    .content
+        overflow hidden
+    .formulario
+        input 
+            vertical-align top
+        input[type="text"],
+        input[type="email"]
+            width 35%
+            box-sizing border-box
+            margin-right -4px
+            height 52px
+        input[type="submit"]
+            width 30%
+            margin-right 0
+
+@media screen and (max-width:800px) 
+    #empresa
+        .texto
+            p
+                max-width 100%
+            p:last-child
+                margin-bottom 200px     
+            
+@media screen and (max-width:480px)
+   header 
+        #logo 
+            float none
+        .menu
+            float none 
+            ul
+                text-align center
+            li 
+                width 98%
+                margin-bottom 5px
+                a 
+                    display block
+                    padding 10px
+                    font-weight bold
+   #empresa 
+        font-size 16px
+        .texto
+            background-size 90%
+            background-position center bottom
+        
+
+    #nosotros
+        .team
+            width 90%
+        .biografia
+            max-width 100%
+    
+    .formulario
+        text-align center
+        font-size 0
+        input 
+            width 98% !important
+            display inline-block !important
+            margin 5px 0 !important
+
+
+
+
+
+
+
+
+
+
+
+

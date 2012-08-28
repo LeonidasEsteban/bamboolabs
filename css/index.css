@@ -1,0 +1,111 @@
+@font-face {
+      font-family: 'OpenSans';
+      src: url('../fonts/OpenSans-Light-webfont.eot');
+      src: url('../fonts/OpenSans-Light-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/OpenSans-Light-webfont.woff') format('woff'),
+           url('../fonts/OpenSans-Light-webfont.ttf') format('truetype'),
+           url('../fonts/OpenSans-Light-webfont.svg#OpenSansLight') format('svg');
+      font-weight: normal;
+      font-style: normal;
+
+  }
+
+
+  @font-face {
+      font-family: 'OpenSans';
+      src: url('../fonts/OpenSans-Regular-webfont.eot');
+      src: url('../fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+           url('../fonts/OpenSans-Regular-webfont.woff') format('woff'),
+           url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
+           url('../fonts/OpenSans-Regular-webfont.svg#OpenSansRegular') format('svg');
+      font-weight: bold;
+      font-style: normal;
+
+  }
+.ir{direction:ltr;display:block;height:100%;overflow:hidden;position:relative;text-align:left;text-indent:100%;white-space:nowrap;width:100%}
+.hidden{display:none}
+.visuallyhidden{left:-9999px;position:absolute !important;top:-9999px}
+.invisible{visibility:hidden}
+.noselect{-o-user-select:none;-ms-user-select:none;-moz-user-select:none;-webkit-user-select:none;-moz-user-select:none;-webkit-user-select:none;user-select:none;-khtml-user-select:none}
+.clearfix,header,#empresa,#empresa .texto,#servicios article{zoom:1;}
+.clearfix:after,header:after,#empresa:after,#empresa .texto:after,#servicios article:after{clear:both;content:"\0020";display:block;height:0;visibility:hidden}
+.clear{display:block;clear:both;zoom:1}
+.nomargin{margin:0 !important}
+*{margin:0}
+a{color:#555353;text-decoration:none}
+p span{color:#42b449;font-weight:bold}
+img{border:none}
+body{background:#f0f0f0;color:#555353;font-family:'OpenSans';font-size:16px;overflow-x:hidden}
+footer{font-size:0;overflow:hidden}
+header{background:url("../images/bamboolabs_background.jpg");position:fixed;top:0;width:100%;z-index:10;}
+header #logo{color:#8b8a8a;float:left;font-family:'Georgia';font-style:italic;}
+header #logo h1{color:#8b8a8a;font-size:24px;font-weight:normal;position:relative;top:-10px}
+header #logo img{position:relative;top:20px}
+header .menu{margin-top:60px;float:right;}
+header .menu ul{padding:0;position:relative;bottom:30px}
+header .menu li{display:inline-block;zoom:1;*display:inline;}
+header .menu li a{background:#dadada;color:#000;text-transform:uppercase;padding:5px 10px;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;}
+header .menu li a:hover{background:#83cb60;color:#fff}
+#empresa{background:url("../images/bamboo_fondo.gif");font-family:'Georgia';font-size:20px;line-height:26px;padding:60px 0 0 70px;}
+#empresa .texto{background:url("../images/gana_dinero_internet.png") no-repeat right bottom padding-box;}
+#empresa .texto p{max-width:500px;float:left;clear:left;margin-bottom:45px}
+#empresa .texto p:nth-child(2){margin-bottom:115px}
+#nosotros{background:url("../images/maderaBamboo.jpg");text-align:center;padding-bottom:10px;}
+#nosotros h3{color:#fff;font-size:37px;font-weight:normal;text-align:left}
+#nosotros .avatar{border:10px solid rgba(0,0,0,0.30);-o-border-radius:142px;-ms-border-radius:142px;-moz-border-radius:142px;-webkit-border-radius:142px;border-radius:142px;display:inline-block;zoom:1;*display:inline;width:143px;height:142px;margin-bottom:10px;overflow:hidden;}
+#nosotros .avatar img{-o-border-radius:142px;-ms-border-radius:142px;-moz-border-radius:142px;-webkit-border-radius:142px;border-radius:142px;width:143px;height:142px}
+#nosotros .biografia{background:#fff;border:1px solid #dc9d2f;-o-border-radius:10px;-ms-border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;color:#737272;font-size:14px;line-height:26px;margin:0 auto;max-width:340px;padding:20px;text-align:justify;min-height:533px;}
+#nosotros .biografia a{color:#54b9f3;font-weight:bold}
+#nosotros .biografia h3{border-bottom:1px solid #bc761a;color:#bc761a;font-size:23px;font-weight:normal;margin-bottom:10px;padding-bottom:15px;text-align:center}
+#nosotros .biografia p{margin-bottom:25px}
+#nosotros .team{width:48%;display:inline-block;zoom:1;*display:inline;vertical-align:top}
+#nosotros .twitter{background:#54b9f3;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;margin:10px auto;max-width:340px;overflow:hidden;padding:15px 5px 10px 5px;text-align:center;position:relative;}
+#nosotros .twitter a{display:inline-block;zoom:1;*display:inline}
+#servicios{background:url("../images/bamboolabs_background.jpg");border-top:50px solid #fff;}
+#servicios article{background:#fff;-o-border-radius:10px;-ms-border-radius:10px;-moz-border-radius:10px;-webkit-border-radius:10px;border-radius:10px;margin-bottom:35px;padding:30px 23px;}
+#servicios h3{font-size:37px;color:#42b449;font-weight:normal;margin-bottom:20px}
+#servicios .content{padding:27px 0;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box}
+#servicios .disenio{background:#fff url("../images/disenoweb.png") no-repeat 30px 90px}
+#servicios .ilustracion{background:#fff url("../images/illustration.png") no-repeat 60px 40px}
+#servicios .entrenamiento{background:#fff url("../images/learning.png") no-repeat 100px 40px}
+#servicios .texto{max-width:530px;float:right;font-size:16px;line-height:25px;}
+#servicios .texto h2{font-size:26px;font-weight:normal;margin-bottom:25px}
+#servicios .texto p{margin-bottom:20px}
+#wrapper{padding-top:82px}
+.content{margin:0 auto;max-width:1000px}
+.formulario:nth-child(odd){-o-box-shadow:1px 1px 15px #808080;-ms-box-shadow:1px 1px 15px #808080;-moz-box-shadow:1px 1px 15px #808080;-webkit-box-shadow:1px 1px 15px #808080;box-shadow:1px 1px 15px #808080;-webkit-background-clip:padding-box}
+.formulario{background:-webkit-gradient(linear, left bottom, left top, color-stop(0, #dddcdc), color-stop(0.6, #f6f6f6), color-stop(1, #f6f6f6));background:-o-linear-gradient(bottom, #dddcdc 0%, #f6f6f6 60%, #f6f6f6 100%);background:-ms-linear-gradient(bottom, #dddcdc 0%, #f6f6f6 60%, #f6f6f6 100%);background:-moz-linear-gradient(bottom, #dddcdc 0%, #f6f6f6 60%, #f6f6f6 100%);background:-webkit-linear-gradient(bottom, #dddcdc 0%, #f6f6f6 60%, #f6f6f6 100%);background:linear-gradient(bottom, #dddcdc 0%, #f6f6f6 60%, #f6f6f6 100%);font-family:'Georgia';padding:10px 0;}
+.formulario label{color:#666;display:block;font-size:22px;font-style:italic}
+.formulario input{font-family:'Georgia';font-size:18px;margin:10px 15px 0 0;outline:0;position:relative;vertical-align:top}
+.formulario input[type="text"],.formulario input[type="email"]{border:1px solid #cdcdcd;-o-border-radius:5px;-ms-border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;color:#666;height:42px;padding:5px 15px 0 15px;width:290px;}
+.formulario input[type="text"]:focus,.formulario input[type="email"]:focus{border:1px solid #42b449}
+.formulario input[type="submit"]{background:url("../images/bamboolabs_sucribirse.png") no-repeat left -50px;border:none;cursor:pointer;height:50px;padding:0;width:191px;}
+.formulario input[type="submit"]:hover{background:url("../images/bamboolabs_sucribirse.png") no-repeat left top}
+.formulario input[type="submit"]:active{-o-transform:scale(.9);-ms-transform:scale(.9);-moz-transform:scale(.9);-webkit-transform:scale(.9);transform:scale(.9)}
+input::-webkit-input-placeholder,input::-moz-input-placeholder{color:#bebebe;font-family:'Georgia'}
+@media screen and (max-width:1000px){footer img{width:100%}
+header{position:static}
+#empresa{padding-left:0;}
+#empresa .texto{-o-transition:.3s padding;-ms-transition:.3s padding;-moz-transition:.3s padding;-webkit-transition:.3s padding;transition:.3s padding;padding-left:4%;padding-right:4%;text-shadow:1px 1px 0 #fff;-moz-text-shadow:1px 1px 0 #fff;-ms-text-shadow:1px 1px 0 #fff;-webkit-text-shadow:1px 1px 0 #fff}
+#servicios .content{padding:27px 2%}
+#servicios .content > *{background-position:80% 20px;-o-background-size:20%;-moz-background-size:20%;-webkit-background-size:20%;background-size:20%;-o-transition:.3s;-ms-transition:.3s;-moz-transition:.3s;-webkit-transition:.3s;transition:.3s}
+#servicios .texto{max-width:100%;float:none}
+#wrapper{padding:0}
+.content{overflow:hidden}
+.formulario input{vertical-align:top}
+.formulario input[type="text"],.formulario input[type="email"]{width:35%;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;margin-right:-4px;height:52px}
+.formulario input[type="submit"]{width:30%;margin-right:0}
+}@media screen and (max-width:800px){#empresa .texto p{max-width:100%}
+#empresa .texto p:last-child{margin-bottom:200px}
+}@media screen and (max-width:480px){header #logo{float:none}
+header .menu{float:none;}
+header .menu ul{text-align:center}
+header .menu li{width:98%;margin-bottom:5px;}
+header .menu li a{display:block;padding:10px;font-weight:bold}
+#empresa{font-size:16px;}
+#empresa .texto{-o-background-size:90%;-moz-background-size:90%;-webkit-background-size:90%;background-size:90%;background-position:center bottom}
+#nosotros .team{width:90%}
+#nosotros .biografia{max-width:100%}
+.formulario{text-align:center;font-size:0;}
+.formulario input{width:98% !important;display:inline-block;zoom:1;*display:inline;margin:5px 0 !important}
+}

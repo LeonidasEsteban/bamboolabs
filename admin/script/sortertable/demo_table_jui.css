@@ -1,0 +1,30 @@
+/* * jQuery UI specific styling */
+
+.paging_full_numbers .ui-button {padding: 3px 6px;margin:0;cursor: pointer;* cursor: hand;font-size:11px; }
+.dataTables_paginate .ui-button {margin-right: -0em !important;}
+.paging_full_numbers {width: 350px !important;}
+.dataTables_wrapper .ui-toolbar {padding: 6px;}
+.dataTables_paginate {width: auto;}
+.dataTables_info {padding-top: 3px;}
+table.display thead th {padding: 3px 0px 3px 10px;cursor: pointer;* cursor: hand;}
+div.dataTables_wrapper .ui-widget-header {font-weight: normal;}
+
+/* * Sort arrow icon positioning */
+table.display thead th div.DataTables_sort_wrapper {position: relative;	padding-right: 20px;}
+table.display thead th div.DataTables_sort_wrapper span {position: absolute;top: 50%;margin-top: -8px;right: 0;}
+/* head*/
+.dataTables_length {width: 40%;float: left;}
+.dataTables_filter {width: 50%;float: right;text-align: right;}
+/* foot*/
+.dataTables_info {width: 50%;float: left;}
+.dataTables_paginate {float: right;text-align: right;}
+/*  DataTables display */
+table.display {margin:0;width: 100%;clear: both;border-collapse: collapse;}
+table.display tfoot th {padding: 3px 0px 3px 10px;font-weight: bold;font-weight: normal;}
+table.display tr.heading2 td {border-bottom: 1px solid #aaa;}
+table.display td {padding: 2px 10px; height:18px; }
+table.display td.center {text-align: center;}
+table tbody tr{ border-bottom: solid #FFE7CE 1px; font-size:10px;}
+
+div#example_paginate{
+	margin-top:2px;}

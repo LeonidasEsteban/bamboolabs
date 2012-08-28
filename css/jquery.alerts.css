@@ -1,0 +1,86 @@
+#popup_container {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	min-width: 300px; /* Dialog will be no smaller than this */
+	max-width: 600px; /* Dialog will wrap after this width */
+	background: #FFF;
+	border: solid 5px #999;
+	color: #000;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#popup_title {
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 1.75em;
+	color: #666;
+	background: #CCC url(../images/title.gif) top repeat-x;
+	border: solid 1x #FFF;
+	border-bottom: solid 1px #999;
+	cursor: default;
+	padding: 0em;
+	margin: 0em;
+}
+p
+#popup_content {
+	background: 16px 16px no-repeat url(../images/info.gif) no-repeat;
+	padding: 1em 1.75em;
+	margin: 0em;
+}
+
+#popup_content.alert {
+	background: url(../images/info.gif) 7% 15% no-repeat;
+}
+
+#popup_content.confirm {
+	background: url(../images/important.gif) no-repeat;
+}
+
+#popup_content.prompt {
+	background: url(../images/help.gif) no-repeat;
+}
+
+#popup_message {
+	margin: 10px 0 0 18px; text-align:center;
+}
+
+#popup_panel {
+	text-align: center;
+	margin: 1em 0em 0.5em 1em;
+}
+
+#popup_prompt {
+	margin: .5em 0em;
+}
+#popup_ok{
+	-moz-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #ffffff;
+	box-shadow:inset 0px 0px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #c2c2c2;
+	display:inline-block;
+	color:#858185;
+	font-family: Verdana, Geneva, sans-serif !important;
+	font-size:13px;
+	font-weight:bold;
+	padding:4px 13px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}#popup_ok:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}#popup_ok:active {
+	position:relative;
+	top:1px;
+}

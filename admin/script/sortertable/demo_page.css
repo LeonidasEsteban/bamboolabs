@@ -1,0 +1,49 @@
+
+/* * * * * General page setup */
+#dt_example {
+	font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+	color: #333;
+	background-color: #fff;
+}
+#container {
+	width: 715px;
+	padding: 0;
+	margin:0;
+}
+#footer {
+	margin: 50px auto 0 auto;
+	padding: 0;
+}
+#demo {
+	margin:0 auto;
+	/*overflow:hidden;*/
+}
+#demo table{
+	width:700px !important;
+	text-align:center;
+}
+
+#demo table tr td.nom_izq{ text-align:left;}
+
+table tbody tr:hover{ background: #FF9; color:#111; filter:alpha(opacity=70);-moz-opacity:.70;opacity:.70;}
+
+.leido{	background: #FFF;}
+.no_leido{ background: #FFF;}
+	.no_leido input.boton2{ background:url(../images/sobre_c.png) 50% 50% no-repeat;}
+	.leido input.boton2{ background:url(../images/sobre_a.png) 50% 50% no-repeat;}
+
+.marcado{ background: #deFFFa; color:#555;}/*#FFF9Ff*/
+.no_marcado{}
+	table td.tag, table td.imag{ font-size:2px;}
+	table td input{ width:18px; height:18px; padding:0; margin:0; border:none; cursor: pointer;}
+	.no_marcado input.boton1{ background:url(../images/mark_n.png) 50% 50% no-repeat;}
+	.marcado input.boton1{ background:url(../images/mark_s.png) 50% 50% no-repeat;}
+
+.boton_z{ background:url(../images/edit.png) 50% 50% no-repeat !important;}
+.boton_borra,.boton_borra_2{ background: url(../images/borra.png) 50% 50% no-repeat !important;}
+.boton_modifica,.boton_modifica_2{ background: url(../images/edit.png) 50% 50% no-repeat !important;}
+.boton_ver{ background: url(../images/ver.png) 50% 50% no-repeat !important;}
+
+div#leer_correo{ margin:0 auto; width:700px; height: auto; padding:10px 0 20px;}

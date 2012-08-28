@@ -1,0 +1,9 @@
+<?
+$servidor='localhost';
+$usuario='bambolab';
+$pass='labs2012';
+$base='bambolab_suscripcion';
+mysql_connect($servidor,$usuario,$pass);
+mysql_select_db($base);
+$lenguaje=1;
+?>

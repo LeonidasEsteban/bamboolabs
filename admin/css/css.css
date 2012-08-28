@@ -1,0 +1,92 @@
+/* Reset */
+@charset "utf-8";
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,li, dl, dt, dd, form, a, fieldset, input, th, td 
+{margin: 0; padding: 0; border: 0; outline: none;}  
+body {line-height: 1;font-size: 66%; /* Decide for yourself if you want to include this. */}  
+h1, h2, h3, h4, h5, h6 {font-size: 100%;padding: .6em 0;margin: 0px 0px 0px 0px;}  
+ul, ol {list-style: none;}  
+a {color: black;text-decoration: none;}  
+a:hover {text-decoration: underline;}  
+.floatLeft {float: left;padding: .5em .5em .5em 0;}  
+.floatRight {float: right;padding: .5em 0 .5em .5em;} 
+
+/* CSS */
+body { background:url(../imagen/pattern/c.png) repeat;}
+.log_cont { border:#000 1px solid; background-color:#FFF; margin-top:50px; padding:5px 5px 10px;border-radius: 10px;-moz-border-radius: 10px; -webkit-border-radius: 10px;-ms-border-radius: 10px;-khtml-border-radius: 10px;}
+.log_cont,.pie1 { width:450px}
+.pie { margin:10px auto 0; text-align:center; font-size:10px; border-top:#999 1px solid; padding:3px}
+
+.contenedor { width:440px; margin:12% auto 0; overflow:hidden;}
+
+/* login */
+#log_tit { font-size:16px; padding:10px; margin-bottom:20px; text-align:center; background-color:#EFEFEF; font-weight:bold}
+.log_img { width:128px; height:128px; background: url(../imagen/login_icon.gif) no-repeat; float:left; margin:0px 0px 0px 40px;}
+#log_conte_input { float:right; width:200px; margin-right:30px; font-size:14px; }
+#log_usua,#log_pass,#log_boton {padding:3px;}
+#log_usua input,#log_pass input { border:#CCC 1px solid; padding:3px; font-weight:bold; font-size:15px;}
+#log_boton input { font-weight:bold; padding:5px; cursor:pointer; border-radius: 5px;-moz-border-radius: 5px; -webkit-border-radius: 5px;-ms-border-radius: 5px;-khtml-border-radius: 5px; border: solid 1px #666; }
+.log_olvide { font-size:10px; margin-top:10px; text-align:center;} 
+.log_olvide a:hover { color:#39F; }
+
+.menu{ float:right; width:200px; margin-right:30px; font-size:14px;}
+.menu div{ padding: 10px 5px; width:190px;}
+.menu div a.input{ float:none; background:#CCC; display:block; margin:0 auto !important; padding:5px 20px; text-align:center; cursor:pointer; border:1px solid #999; width:100px; text-decoration:none; color:#333;border-radius: 5px;-moz-border-radius: 5px; -webkit-border-radius: 5px;-ms-border-radius: 5px;-khtml-border-radius: 5px;}
+
+.menu div a.input:hover{ background: #AAD2FF; text-decoration:none; }
+
+div.caja{ margin:1% auto 2%; width:800px;border:#aaa 2px solid; font-size:12px; font-family:Tahoma, Geneva, sans-serif; overflow:hidden; background: #FFF url(../imagen/fondo_t.jpg) repeat-x;}
+.caja{border-radius: 10px;-moz-border-radius: 10px; -webkit-border-radius: 10px;-ms-border-radius: 10px;-khtml-border-radius: 10px;}
+.left{border-radius:10px 0 0 0;-moz-border-radius: 10px 0 0 0; -webkit-border-radius: 10px 0 0 0;-ms-border-radius: 10px 0 0 0;-khtml-border-radius: 10px 0 0 0;}
+.right{border-radius:0 10px 0 0;-moz-border-radius: 0 10px 0 0; -webkit-border-radius: 0 10px 0 0;-ms-border-radius: 0 10px 0 0;-khtml-border-radius: 0 10px 0 0;}
+
+/* left*/
+div.caja .left{ width:179px; float:left; padding:10px 10px 2px; border-right: solid 1px #CCC;}
+.left img{ background:#D5E5E3; margin:30px 20px 6px; width:130px; height:160px; border:1px solid #666; border-radius: 15px;-moz-border-radius: 15px; -webkit-border-radius: 15px;-ms-border-radius: 15px;-khtml-border-radius: 15px; padding:5px;}
+.left p{ margin:3px; text-align:center; font-size:12px;}
+.left h2, .left h1{ text-align:center; padding:0 0 25px;}
+.botones{ text-align:center; padding: 6px 24px 5px; overflow:hidden;}
+.button{ background: #CCC; padding:7px 15px;border-radius: 5px;-moz-border-radius: 5px; -webkit-border-radius: 5px;-ms-border-radius: 5px;-khtml-border-radius: 5px; cursor:pointer; border:#333 solid 1px; width:100px; float:left; color:#333;}
+.button:hover{ background:#9CF;border: #09F solid 1px;}
+a.button{ display:block; padding:8px 0 9px; text-align:center;}
+a.button:hover{ text-decoration:none !important;}
+
+a{ color: #09F;}
+a:hover{ text-decoration:underline !important;}
+a.link{ color: #333;}
+
+/*right*/
+div.caja .right{ width:570px; float:right; padding:10px 15px;}
+.right .caja_head{ padding-bottom:5px; overflow:hidden;}
+.right .caja_head span{ display:block; width:50%; float:left;}
+.right .formulario{ padding: 10px 0 10px;}
+
+/*tabla*/
+.tabla td{ height:30px; padding-top:2px;}
+.tabla td.tabla_der{ padding-left:25px; padding-top:0px;}
+.text_izq{ text-align:left;}
+.text_der{ text-align:right;}
+.tabla input,.tabla select,.tabla textarea { width:170px; padding:1px 4px; border: solid 1px #999; height:20px; border-radius: 5px;-moz-border-radius: 5px; -webkit-border-radius: 5px;-ms-border-radius: 5px;-khtml-border-radius: 5px; background:#D5E5E3; font-family:Tahoma, Geneva, sans-serif; font-size:11px; color: #666;}
+.tabla select { width:175px !important; padding:0; border-radius: 5px 0 0 5px;-moz-border-radius: 5px  0 0 5px; -webkit-border-radius: 5px  0 0 5px;-ms-border-radius: 5px  0 0 5px;-khtml-border-radius: 5px  0 0 5px; }
+.tabla textarea{ height: 60px; margin-bottom:10px;}
+
+.tabla input:hover,.tabla textarea:hover,.tabla select:hover{ background:#999; color:#FFF;}
+
+/* bottom */
+div.bottom{ width:780px; float: left; margin:0 10px; border:none; position:relative;}
+#tabla-resultado{ margin-top:8px !important;}
+
+/* pata tabla*/
+.dataTables_scroll, .dataTables_scrollHead, .dataTables_scrollBody{ width:780px !important;}
+.dataTables_scrollBody{ min-height:150px;}
+#example_wrapper{ width:auto !important; margin:0 0 10px !important; padding:0px !important; min-height:0px;}
+.ver_foto{ cursor:pointer;}
+.table_opc{ background:#F2F2FC; text-align:center;}
+.table_opc img{ cursor:pointer;}
+/* para ver foto oculta */
+
+#tabla_admin input{ width:120px; text-align:center; height:25px; padding:0 3px; border:#ddd solid 1px; margin:3px 0 5px;border-radius: 5px;-moz-border-radius: 5px; -webkit-border-radius: 5px;-ms-border-radius: 5px;-khtml-border-radius: 5px;}
+
+#tabla_admin input:focus{ background: #444242; color:#FFF; border:solid 1px #0CF;}
+img.s_estado{ cursor: pointer;}
+img.detalle{ display:block; position: absolute; top:5px;}
+td.conte_estado{ position:relative; font-size:7px;line-height:18px;}

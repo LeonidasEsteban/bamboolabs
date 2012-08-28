@@ -1,8 +1,8 @@
 <?
 $servidor='localhost';
-$usuario='bambolab';
-$pass='labs2012';
-$base='bambolab_suscripcion';
+$usuario='bamboolabs';
+$pass='q37W=s75[15tv3S';
+$base='bamboolabs_suscripcion';
 mysql_connect($servidor,$usuario,$pass);
 mysql_select_db($base);
 $lenguaje=1;

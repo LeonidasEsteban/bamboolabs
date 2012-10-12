@@ -1,0 +1,31 @@
+/*
+ *  Simple fluid media
+ */
+	figure {position: relative; margin: 0;}
+	figure img, figure object, figure embed, figure video {max-width: 100%; display: block; _width: 100%;} /* Fluid images */
+	img {border: 0; -ms-interpolation-mode: bicubic;} /* Improve IE's resizing of images */
+
+
+/* Slider */
+.slider {
+	position: relative;
+	min-height: 170px;
+	overflow: hidden;
+}
+	/* cycler */
+	.slider .cycler {
+		overflow:  hidden;
+	}
+		.slider .cycler figure {
+			position: relative;
+			display: none;
+			display: none;
+			float: right;
+			margin-right: 70px;
+		}
+		.slider .cycler figure.active {z-index: 3; display: block;}
+			.slider .cycler figure img {
+				max-width: 100%;
+				margin-bottom: 0;
+				display: block;
+			}

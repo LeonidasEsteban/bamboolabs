@@ -1,0 +1,35 @@
+@import "fonts/stylesheet.css";
+*{margin:0;padding:0}
+body{background:#313131 url("../images/cartographer.jpg");font-family:'aller',Arial;color:#fff;font-size:16px}
+footer{background:#1a1a1a;border-top:1px solid #f00;padding:25px 0;}
+footer p{color:#808080;font-size:14px;line-height:22px;text-align:center;text-transform:uppercase}
+h1{font-size:29px;font-weight:normal;line-height:32px;}
+h1 span{font-size:46px;font-weight:bold}
+header .content{padding-top:30px;background:#000;margin-bottom:90px;position:relative}
+nav{background:#1e1e1e;border-top:2px solid #7b0e13;overflow:hidden;height:45px;line-height:45px;}
+nav a{color:#fff;text-decoration:none;padding:0 20px;}
+nav a:hover{text-decoration:underline}
+nav li{float:left;list-style:none}
+#logo{position:absolute;top:0;bottom:0;padding-top:20px;padding-left:40px;z-index:5;width:900px;background:url("../images/kanjis.png") no-repeat right 50px;}
+#logo .kanjis{float:right}
+.slider{background:#000}
+#encuentranos{text-align:center;}
+#encuentranos h3{background:url("../images/encabezado.jpg");font-family:'droid';font-size:30px;font-style:italic;font-weight:normal;height:76px;line-height:76px;text-transform:uppercase;text-align:left}
+#encuentranos #map{margin:30px auto;border:5px solid #000;text-align:center}
+#tabs{width:940px;margin:-100px auto 20px auto;font-size:0;position:absolute;left:0;right:0;z-index:5;}
+#tabs > div{display:inline-block;font-size:16px;min-height:160px;vertical-align:top;width:33.3%;box-sizing:border-box;padding:20px}
+#tabs h2{font-size:20px;font-weight:normal;margin-bottom:5px}
+#tabs h3{font-family:'droid';font-style:italic;font-size:16px;margin-bottom:10px}
+#tabs h3{color:#000}
+#tabs p{font-size:12px;padding:8px 0 12px 60px}
+#tabs ul{padding-left:20px}
+#tabs li{list-style:url("../images/relojito_icono.png");font-size:14px}
+#tabs .red{background:#ed1c24;}
+#tabs .red h3{color:#000}
+#tabs .red p{background:url("../images/megusta_icono.png") no-repeat left bottom}
+#tabs .gray{background:#4c4c4c;}
+#tabs .gray p{background:url("../images/credencial_icono.png") no-repeat left bottom}
+#tabs .white{background:#fff;color:#000;}
+#tabs .white h2{color:#ed1c24}
+#tabs .white h3{color:#515151}
+.content{width:1000px;margin:0 auto;display:block}
